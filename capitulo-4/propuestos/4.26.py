@@ -3,7 +3,6 @@
 #
 # Generar y mostrar la matriz Hn, numerada de uno en uno recorriendo
 # sus diagonales secundarias desde el ángulo superior izquierdo.
-# Para n = 3 las filas son 1 2 4, 3 5 7 y 6 8 9.
 
 def crearNula(m, n):
     """Matriz de ceros de m filas y n columnas."""

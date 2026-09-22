@@ -2,8 +2,8 @@
 # J. M. Flores Monrroy
 #
 # Generar y mostrar la matriz Zn, que tiene unos en la primera fila,
-# en la última y en la diagonal secundaria. Para n = 4 es la que
-# muestra la guía.
+# en la última y en la diagonal secundaria, de modo que los unos
+# dibujan la letra Z.
 
 def crearNula(m, n):
     """Matriz de ceros de m filas y n columnas."""
