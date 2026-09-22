@@ -1,7 +1,8 @@
 # Ejemplo 1.8 — Algoritmos resueltos con Python
 # J. M. Flores Monrroy
 #
-# Obtener el resultado de elevar una base B a un exponente entero E.
+# Obtener el resultado de elevar una base B a un exponente entero no
+# negativo E.
 
 B = int(input("Ingrese la base: "))
 E = int(input("Ingrese el exponente: "))
