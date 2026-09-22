@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="AREA DE TRIANGULO" />
+        <attribute name="authors" value="Angel" />
+        <attribute name="about" value="" />
+        <attribute name="saved" value="2026-03-31 02:58:13 a. m." />
+        <attribute name="created" value="QW5nZWw7REVTS1RPUC1QTzEwMUgxOzIwMjYtMDMtMTk7MDc6MTY6MjEgcC7CoG0uOzMwOTY=" />
+        <attribute name="edited" value="QW5nZWw7REVTS1RPUC1QTzEwMUgxOzIwMjYtMDMtMzE7MDI6NTg6MTMgYS7CoG0uOzI7MzE4Ng==" />
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters />
+        <body>
+            <declare name="Altura, Base" type="Integer" array="False" size="" /><declare name="Area" type="Real" array="False" size="" />
+            <output expression="&quot;Altura del triángulo&quot;" newline="True" />
+            <input variable="Altura" />
+            <output expression="&quot;Base del triángulo&quot;" newline="True" />
+            <input variable="Base" />
+            <assign variable="Area" expression="Altura*Base/2" />
+            <output expression="&quot;El area es &quot; &amp;Area&amp; &quot; m^2&quot;" newline="True" />
+        </body>
+    </function>
+</flowgorithm>

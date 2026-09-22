@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+<attributes><attribute name="name" value="Propuesto 1.29"/><attribute name="authors" value="Javier Marcelo Flores Monrroy"/></attributes>
+<function name="Main" type="None" variable=""><parameters/><body><declare name="N" type="Integer" array="False" size=""/><declare name="C" type="Integer" array="False" size=""/><declare name="P" type="Integer" array="False" size=""/><declare name="T" type="Integer" array="False" size=""/><output expression="&quot;Número natural&quot;" newline="True"/><input variable="N"/><assign variable="C" expression="N * N"/><assign variable="P" expression="1"/><assign variable="T" expression="N"/><while expression="T &gt; 0"><assign variable="P" expression="P * 10"/><assign variable="T" expression="T / 10"/></while><if expression="(C % P) == N"><then><output expression="&quot;Es automórfico&quot;" newline="True"/></then><else><output expression="&quot;No es automórfico&quot;" newline="True"/></else></if></body></function>
+</flowgorithm>

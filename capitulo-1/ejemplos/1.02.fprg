@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<flowgorithm fileversion="4.2"><attributes /><function name="Main" type="None" variable=""><parameters /><body><declare name="C" type="Real" array="False" size="" /><declare name="F" type="Real" array="False" size="" /><output expression="&quot;Temperatura en grados Celsius&quot;" newline="True" /><input variable="C" /><assign variable="F" expression="C * 9 / 5 + 32" /><output expression="&quot;La temperatura en grados Fahrenheit es &quot; &amp; F" newline="True" /></body></function></flowgorithm>

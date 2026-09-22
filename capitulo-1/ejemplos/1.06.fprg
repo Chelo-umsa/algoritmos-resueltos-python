@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="26)Factorial de un numero" />
+        <attribute name="authors" value="Angel" />
+        <attribute name="about" value="" />
+        <attribute name="saved" value="2026-03-30 12:37:03 a. m." />
+        <attribute name="created" value="QW5nZWw7REVTS1RPUC1QTzEwMUgxOzIwMjYtMDMtMzA7MTI6Mjk6MTUgYS7CoG0uOzMwNzc=" />
+        <attribute name="edited" value="QW5nZWw7REVTS1RPUC1QTzEwMUgxOzIwMjYtMDMtMzA7MTI6Mzc6MDMgYS7CoG0uOzE7MzE4MQ==" />
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters />
+        <body>
+            <declare name="N, C, F" type="Integer" array="False" size="" />
+            <output expression="&quot;Ingrsa un numero&quot;" newline="True" />
+            <input variable="N" />
+            <assign variable="F" expression="1" />
+            <for variable="C" start="1" end="N" direction="inc" step="1">
+                <assign variable="F" expression="F*C" />
+            </for>
+            <output expression="&quot;La factorial de &quot; &amp;N&amp; &quot; es: &quot;&amp;F" newline="True" />
+        </body>
+    </function>
+</flowgorithm>

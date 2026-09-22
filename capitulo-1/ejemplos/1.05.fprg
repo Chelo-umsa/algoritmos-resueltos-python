@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="21. Mostrar por pantalla los primeros N múltiplos de K." />
+        <attribute name="authors" value="PC" />
+        <attribute name="about" value="" />
+        <attribute name="saved" value="2026-03-29 10:25:00 p. m." />
+        <attribute name="created" value="UEM7REVTS1RPUC1KOVRVSkpROzIwMjYtMDMtMjk7MTE6MzI6NDAgYS4gbS47MjcxMQ==" />
+        <attribute name="edited" value="UEM7REVTS1RPUC1KOVRVSkpROzIwMjYtMDMtMjk7MTA6MjQ6MzYgcC4gbS47MTtQQztERVNLVE9QLUo5VFVKSlE7MjAyNi0wMy0yNTswOTo0ODozNCBwLiBtLjsxLiBDYWxjdWxhciBlbCDDoXJlYSBkZSB1biB0cmnDoW5ndWxvIGEgcGFydGlyIGRlIHN1IGJhc2UgeSBhbHR1cmEuZnByZzsxMjE0Mw==" />
+        <attribute name="edited" value="UEM7REVTS1RPUC1KOVRVSkpROzIwMjYtMDMtMjk7MTA6MjU6MDAgcC4gbS47MjsyODMy" />
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters />
+        <body>
+            <declare name="K, N, M, C" type="Integer" array="False" size="" />
+            <output expression="&quot;Multiplos de un numero&quot;" newline="True" />
+            <output expression="&quot;Ingrese la cantidad de multiplos&quot;" newline="True" />
+            <input variable="N" />
+            <output expression="&quot;Ingrese el numero&quot;" newline="True" />
+            <input variable="K" />
+            <output expression="&quot;Los multiplos son: &quot;" newline="True" />
+            <for variable="C" start="1" end="N" direction="inc" step="1">
+                <assign variable="M" expression="K*C" />
+                <output expression="M" newline="True" />
+            </for>
+            </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+<attributes><attribute name="name" value="Propuesto 1.25"/><attribute name="authors" value="Javier Marcelo Flores Monrroy"/></attributes>
+<function name="Main" type="None" variable=""><parameters/><body><declare name="N" type="Integer" array="False" size=""/><declare name="D" type="Integer" array="False" size=""/><declare name="Q" type="Integer" array="False" size=""/><declare name="i" type="Integer" array="False" size=""/><output expression="&quot;Número de varios dígitos&quot;" newline="True"/><input variable="N"/><while expression="N &gt; 0"><assign variable="D" expression="N % 10"/><assign variable="Q" expression="0"/><for variable="i" start="1" end="D" direction="inc" step="1"><if expression="(D % i) == 0"><then><assign variable="Q" expression="Q + 1"/></then><else></else></if></for><if expression="Q == 2"><then><output expression="D" newline="True"/></then><else></else></if><assign variable="N" expression="N / 10"/></while></body></function>
+</flowgorithm>

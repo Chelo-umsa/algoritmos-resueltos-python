@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+<attributes><attribute name="name" value="Propuesto 1.31"/><attribute name="authors" value="Javier Marcelo Flores Monrroy"/></attributes>
+<function name="Main" type="None" variable=""><parameters/><body><declare name="N" type="Integer" array="False" size=""/><declare name="C" type="Integer" array="False" size=""/><declare name="M" type="Integer" array="False" size=""/><declare name="S" type="Integer" array="False" size=""/><declare name="i" type="Integer" array="False" size=""/><output expression="&quot;Cantidad de perfectos&quot;" newline="True"/><input variable="N"/><assign variable="C" expression="0"/><assign variable="M" expression="1"/><while expression="C &lt; N"><assign variable="M" expression="M + 1"/><assign variable="S" expression="0"/><for variable="i" start="1" end="M - 1" direction="inc" step="1"><if expression="(M % i) == 0"><then><assign variable="S" expression="S + i"/></then><else></else></if></for><if expression="S == M"><then><output expression="M" newline="True"/><assign variable="C" expression="C + 1"/></then><else></else></if></while></body></function>
+</flowgorithm>

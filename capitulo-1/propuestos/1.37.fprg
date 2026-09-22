@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+<attributes><attribute name="name" value="Propuesto 1.37"/><attribute name="authors" value="Javier Marcelo Flores Monrroy"/></attributes>
+<function name="Main" type="None" variable=""><parameters/><body><declare name="N" type="Integer" array="False" size=""/><declare name="T" type="Integer" array="False" size=""/><declare name="C" type="Integer" array="False" size=""/><output expression="&quot;Cantidad de triangulares&quot;" newline="True"/><input variable="N"/><assign variable="T" expression="0"/><for variable="C" start="1" end="N" direction="inc" step="1"><assign variable="T" expression="T + C"/></for><for variable="C" start="N" end="1" direction="dec" step="1"><output expression="T" newline="True"/><assign variable="T" expression="T - C"/></for></body></function>
+</flowgorithm>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+<attributes><attribute name="name" value="Propuesto 1.23"/><attribute name="authors" value="Javier Marcelo Flores Monrroy"/></attributes>
+<function name="Main" type="None" variable=""><parameters/><body><declare name="A" type="Integer" array="False" size=""/><declare name="B" type="Integer" array="False" size=""/><declare name="Q" type="Integer" array="False" size=""/><declare name="M" type="Integer" array="False" size=""/><output expression="&quot;Primer número&quot;" newline="True"/><input variable="A"/><output expression="&quot;Segundo número&quot;" newline="True"/><input variable="B"/><assign variable="Q" expression="0"/><assign variable="M" expression="0"/><while expression="Q &lt; 10"><assign variable="M" expression="M + 1"/><if expression="(M % A) == 0 and (M % B) == 0"><then><output expression="M" newline="True"/><assign variable="Q" expression="Q + 1"/></then><else></else></if></while></body></function>
+</flowgorithm>
