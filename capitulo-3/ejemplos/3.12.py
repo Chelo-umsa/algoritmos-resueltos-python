@@ -114,7 +114,7 @@ while opcion != "z":
         else:
             V = cargarAleatorio(N, k, w)
 
-    elif len(V) == 0:
+    elif opcion != "z" and len(V) == 0:
         print("Error: primero debe cargar el vector")
 
     elif opcion == "d":
